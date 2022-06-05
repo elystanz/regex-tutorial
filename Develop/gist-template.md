@@ -1,10 +1,16 @@
-# Title (replace with your title)
+# Regex for Dummies
 
-Introductory paragraph (replace this with your text)
+Regex, or regular expressions, is similar to a computer, browser, or application's CMD + F or CTRL + F ability to search for words; however, regex is a but more precise in that it can filter a wide variety of characters with great specificity. Are there three Jane Doe's but two have a lowercase D? You can find them with regex! Need to edit any phrase with a +? Regex will help you find them quickly with just a bit of input from you!
+
+In this tutorial, we'll go over the regex basics, using a list of names inputted from an example sumbission form.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this short tutorial, you'll be looking at a text list of names. There are a variety of names, with different cases, some with numbers or symbols, and some repeated names but different formats. You will see and understand how regex is used to extract specifics from this list with pictures to help guide you!
+
+Let's look at what we're going to be working with. We are using <a href="https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285">RegExr</a> to test out our components.
+
+![Regex](https://imgur.com/a/safyJa3)
 
 ## Table of Contents
 
@@ -23,6 +29,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Anchors are used at the beginning and end of a regex expression. 
 
 ### Quantifiers
 
